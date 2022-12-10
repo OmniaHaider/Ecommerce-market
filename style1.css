@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    /*background-image: url("nn.jpg");*/
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.container{
+    max-width: 1300px;
+    color: rgb(226, 143, 35);
+    margin-left: 20px;
+}
+header{
+    width: auto;
+    overflow: auto;
+    margin: 2%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+}
+.logo{
+    float: left;
+
+}
+.logo h2{
+color: #333;
+/*color: rgb(226, 143, 35);*/
+margin-left: 20px;
+}
+nav{
+    float: right;
+    text-align: right;
+    color: brown;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 2px 10px;
+}
+nav ul li:hover{
+    border: 2px solid  rgb(5, 177, 245);
+}
+/*nav ul li.activate{
+    border: 2px solid rgb(5, 177, 245);
+}*/
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+   /* padding: 2px 10px;*/
+}s
+nav ul li :after a{
+    content: "|";
+}
+nav ul li  :last-child:after a{
+    content: "";
+}
+.text{
+    margin-top: 50px;
+}
+.text h2{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+.buttons{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+/*.button{
+    width: 120px;
+    height: 40px;
+    border: solid blue;
+
+}*/
+button a{
+text-decoration: none;
+font-size: 18px;
+}
+.btn1{
+    background-color: burlywood;
+    border: solid burlywood;
+    width: 120px;
+    height: 40px;
+    
+}
+.btn2{
+    background-color: rgb(241, 139, 6);
+    border: solid rgb(241, 139, 6);;
+    width: 120px;
+    height: 40px;
+}
+h3{
+text-align: center;  
+font-size: 30px;
+color: indianred;
+}
+p{
+text-align: center;  
+font-size: 25px;
+color: indianred;
+}
